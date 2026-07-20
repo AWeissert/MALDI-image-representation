@@ -25,12 +25,14 @@ This notebook converts the raw example data from "ExampleData_Raw" into processe
 - Then, or if you start with the real data, run: 1_Data_processed_to_training.ipynb
 This notebook converts the processed data (Example or Real) into the training dataset.
 - Next, 2_Training_BYOL.py performs the model training. The best model weights and training progress files, including text files and images, are saved in 'TrainingOutput'.
-- Finally, run 3_Evaluation.ipynb. This notebook shows how to load trained model weights and evaluate the results using the example data.
+- Finally, run 3_Evaluation.ipynb. This notebook shows how to load trained model weights and evaluate the results using the example data. Path to the trained weights needs to be adjusted.
 - The file 'AugmentationCuda.py' contains the code for the custom augmentation pipeline. It is used by 2_Training_BYOL.py and usually does not need to be modified.
 
 ### TRAINED MODEL WEIGHTS
-The folder 'TrainingOutput/ModelParams/' contains the trained model weights from the full training run used to generate the results reported in the paper.
-'ResNet50_FullBYOL-default_training-21_01_2026.pt' are the weights for training with default augmentations. Analougusly, 'ResNet50_FullBYOL-custom_training-19_01_2026.pt' the weights for custom augmentations.
+The trained model weights used to generate the results in the paper are available in the published dataset under the name:\
+Default Augmentations: 'ModelParams/ResNet50_FullBYOL-default_training-21_01_2026.pt'\
+Trained with custom Augmentations: 'ModelParams/ResNet50_FullBYOL-custom_training-19_01_2026.pt'\
+To use the '3_Evaluation.ipynb' script as intended download them into the folder 'TrainingOutput/ModelParams/'
 
 ### FURTHER EXPLANATION / DETAILS
 More detailed explanations are provided as comments in the code. Places where file names, paths, or training parameters may need to be adapted are marked with #!
