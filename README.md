@@ -50,10 +50,10 @@ Python Version used for training and evaluation: python 3.13\
 ## CITATION
 If you use this code or the associated dataset, please cite the corresponding paper and dataset publication.\
 Paper (working title):\
-Weissert, Annalena; Begher-Tibbe, Brigitte; Reinders, Jörg; Edlund, Karolina; Myllys, Maiju; Glotzbach, Annika; Lücke, Simon; Marchan, Rosemarie; Hengstler, Jan G.; Rahnenführer, Jörg, 2026, "Tailored deep learning strategy improves MALDI-MS image representation for metabolite identification in tumor tissue"
+Weissert, Annalena; Begher-Tibbe, Brigitte; Reinders, Jörg; Edlund, Karolina; Myllys, Maiju; Glotzbach, Annika; Lüke, Simon; Marchan, Rosemarie; Hengstler, Jan G.; Rahnenführer, Jörg, 2026, "Tailored deep learning strategy improves MALDI-MS image representation for metabolite identification in tumor tissue"
 
 Dataset: \
-Weissert, Annalena; Begher-Tibbe, Brigitte; Reinders, Jörg; Edlund, Karolina; Myllys, Maiju; Glotzbach, Annika; Lücke, Simon; Marchan, Rosemarie; Hengstler, Jan G.; Rahnenführer, Jörg, 2026, "Preprocessed MALDI-MS imaging dataset across tumor stages in a murine breast cancer model", https://doi.org/10.17877/RTG2624-2026-MRKM1K1K
+Weissert, Annalena; Begher-Tibbe, Brigitte; Reinders, Jörg; Edlund, Karolina; Myllys, Maiju; Glotzbach, Annika; Lüke, Simon; Marchan, Rosemarie; Hengstler, Jan G.; Rahnenführer, Jörg, 2026, "Preprocessed MALDI-MS imaging dataset across tumor stages in a murine breast cancer model", https://doi.org/10.17877/RTG2624-2026-MRKM1K1K
 
 ## LICENSE:
 This work is licensed under MIT license: 
