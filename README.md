@@ -16,8 +16,7 @@ This repository contains the code for preprocessing, training, and evaluation us
 └── AugmentationCuda.py\
 
 ## DATA
-All folders starting with 'ExampleData' contain a small example dataset. This dataset is a reduced subset of the original data, with fewer m/z-values and smaller image sections.
-The full processed dataset used in the paper is published under the CC-BY 4.0 license and is available here: https://doi.org/10.17877/RTG2624-2026-MRKM1K1K
+The folder 'ExampleData_Raw' and 'ExampleData_Labels' contain a small example dataset. This dataset is a reduced subset of the original data, with fewer m/z-values and small image sections. The folder 'ExampleData_Processed' and 'ExampleData_Training' contain only a portion of the processed Example Data to save storage, but showcase the dataformat. The workflow below explains how to create this data on the full Example Data set. The real processed dataset used in the paper is published under the CC-BY 4.0 license and is available here: https://doi.org/10.17877/RTG2624-2026-MRKM1K1K
 
 ## WORKFLOW
 The scripts are intended to be run in numerical order.
